@@ -1,0 +1,113 @@
+#include <stdio.h>
+#include <string.h>
+
+#define SIZE 10  // total parking slots
+
+struct Parking {
+    char vehicleNo[20];
+    int occupied;
+};
+struct Parking lot[SIZE];
+
+void initialize() {
+    for (int i = 0; i < SIZE; i++) {
+        lot[i].occupied = 0;
+        strcpy(lot[i].vehicleNo, "");
+    }
+}
+void parkVehicle(char vehicleNo[]) {
+    for (int i = 0; i < SIZE; i++) {
+        if (lot[i].occupied == 0) {
+            lot[i].occupied = 1;
+            strcpy(lot[i].vehicleNo, vehicleNo);
+            printf("Vehicle parked at slot %d\n", i + 1);
+            return;
+        }
+    }
+    printf("Parking Full!\n");
+}
+void removeVehicle(char vehicleNo[]) {
+    for (int i = 0; i < SIZE; i++) {
+        if (lot[i].occupied && strcmp(lot[i].vehicleNo, vehicleNo) == 0) {
+            lot[i].occupied = 0;
+            strcpy(lot[i].vehicleNo, "");
+            printf("Vehicle removed from slot %d\n", i + 1);
+            return;
+        }
+    }
+    printf("Vehicle not found\n");
+}
+void searchVehicle(char vehicleNo[]) {
+    for (int i = 0; i < SIZE; i++) {
+        if (lot[i].occupied && strcmp(lot[i].vehicleNo, vehicleNo) == 0) {
+            printf("Vehicle found at slot %d\n", i + 1);
+            return;
+        }
+    }
+    printf("Vehicle not found\n");
+}
+void display() {
+    printf("\n🚗 Parking Status:\n");
+    for (int i = 0; i < SIZE; i++) {
+        if (lot[i].occupied)
+            printf("Slot %d: %s\n", i + 1, lot[i].vehicleNo);
+        else
+            printf("Slot %d: Empty\n", i + 1);
+    }
+}
+void availableSlots() {
+    int count = 0;
+    for (int i = 0; i < SIZE; i++) {
+        if (!lot[i].occupied)
+            count++;
+    }
+    printf("Available slots: %d\n", count);
+}
+int main() {
+    int choice;
+    char vehicleNo[20];
+
+    initialize();
+
+    while (1) {
+        printf("\n===== Parking Lot System =====\n");
+        printf("1. Park Vehicle\n");
+        printf("2. Remove Vehicle\n");
+        printf("3. Search Vehicle\n");
+        printf("4. Display Parking\n");
+        printf("5. Available Slots\n");
+        printf("6. Exit\n");
+
+        printf("Enter choice: ");
+        scanf("%d", &choice);
+
+        switch (choice) {
+            case 1:
+                printf("Enter vehicle number: ");
+                scanf("%s", vehicleNo);
+                parkVehicle(vehicleNo);
+                break;
+            case 2:
+                printf("Enter vehicle number: ");
+                scanf("%s", vehicleNo);
+                removeVehicle(vehicleNo);
+                break;
+            case 3:
+                printf("Enter vehicle number: ");
+                scanf("%s", vehicleNo);
+                searchVehicle(vehicleNo);
+                break;
+            case 4:
+                display();
+                break;
+            case 5:
+                availableSlots();
+                break;
+            case 6:
+                return 0;
+            default:
+                printf("Invalid choice\n");
+        }
+    }
+    return 0;
+}
