@@ -96,4 +96,6 @@ Author: Anuj Rana
 
 This project is open-source and available for educational purposes.
 
+---
+
 ⭐ If you like this project, give it a star!
