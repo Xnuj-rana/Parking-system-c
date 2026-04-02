@@ -31,7 +31,7 @@ The program allows users to park vehicles, remove them, search for vehicles, and
 2.screenshot
 ![img alt](https://github.com/Xnuj-rana/Parking-system-c/blob/a88ab4502b3248f1cabf5bfe8f2a4a86445815d6/Screenshot%202026-04-02%20185145.png)
 3.screenshot
-![img alt](https://github.com/Xnuj-rana/Parking-system-c/blob/a88ab4502b3248f1cabf5bfe8f2a4a86445815d6/Screenshot%202026-04-02%20185145.png)
+![img alt](https://github.com/Xnuj-rana/Parking-system-c/blob/b607d550fcc4186586cb13d98567eacd41c3bb90/Screenshot%202026-04-02%20185218.png)
 4.screenshot
 
 - Removing a vehicle and freeing slot
