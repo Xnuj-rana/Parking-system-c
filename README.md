@@ -45,7 +45,7 @@ The program allows users to park vehicles, remove them, search for vehicles, and
 
 
 - Displaying full parking status
-![img alt](https://github.com/Xnuj-rana/Parking-system-c/blob/a88ab4502b3248f1cabf5bfe8f2a4a86445815d6/Screenshot%202026-04-02%20185145.png)
+![img alt](https://github.com/Xnuj-rana/Parking-system-c/blob/9a012ec720d7e7a7a594c136d7ad4782ec5b2345/Screenshot%202026-04-02%20185459.png)
 7.screenshot
 
 
