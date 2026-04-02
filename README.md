@@ -27,7 +27,7 @@ The program allows users to park vehicles, remove them, search for vehicles, and
 Parking vehicles with automatic slot allocation
 ![img alt](https://github.com/Xnuj-rana/Parking-system-c/blob/e49dbe1486fabae4c3fe290a21f8c24c26c15d9f/Screenshot%202026-04-02%20185052.png)
 
-![img alt]()
+![img alt](https://github.com/Xnuj-rana/Parking-system-c/blob/9a920699f5b965dc1dfa675956982eb06f85235a/Screenshot%202026-04-02%20185113.png)
 
 ![img alt]()
 
