@@ -24,28 +24,34 @@ The program allows users to park vehicles, remove them, search for vehicles, and
 
 ## 🧩 Sample Output Screenshots
 
-Parking vehicles with automatic slot allocation
+- Parking vehicles with automatic slot allocation
 ![img alt](https://github.com/Xnuj-rana/Parking-system-c/blob/e49dbe1486fabae4c3fe290a21f8c24c26c15d9f/Screenshot%202026-04-02%20185052.png)
-
+1.screenshot
 ![img alt](https://github.com/Xnuj-rana/Parking-system-c/blob/9a920699f5b965dc1dfa675956982eb06f85235a/Screenshot%202026-04-02%20185113.png)
+2.screenshot
+![img alt](https://github.com/Xnuj-rana/Parking-system-c/blob/a88ab4502b3248f1cabf5bfe8f2a4a86445815d6/Screenshot%202026-04-02%20185145.png)
+3.screenshot
+![img alt](https://github.com/Xnuj-rana/Parking-system-c/blob/a88ab4502b3248f1cabf5bfe8f2a4a86445815d6/Screenshot%202026-04-02%20185145.png)
+4.screenshot
 
-![img alt]()
-
-
-Removing a vehicle and freeing slot
-
-
-
-Searching vehicle location
-
-
-
-Displaying full parking status
+- Removing a vehicle and freeing slot
+![img alt](https://github.com/Xnuj-rana/Parking-system-c/blob/a88ab4502b3248f1cabf5bfe8f2a4a86445815d6/Screenshot%202026-04-02%20185145.png)
+5.screenshot
 
 
+- Searching vehicle location
+![img alt](https://github.com/Xnuj-rana/Parking-system-c/blob/a88ab4502b3248f1cabf5bfe8f2a4a86445815d6/Screenshot%202026-04-02%20185145.png)
+6.screenshot
 
-Checking available slots
 
+- Displaying full parking status
+![img alt](https://github.com/Xnuj-rana/Parking-system-c/blob/a88ab4502b3248f1cabf5bfe8f2a4a86445815d6/Screenshot%202026-04-02%20185145.png)
+7.screenshot
+
+
+- Checking available slots
+![img alt](https://github.com/Xnuj-rana/Parking-system-c/blob/a88ab4502b3248f1cabf5bfe8f2a4a86445815d6/Screenshot%202026-04-02%20185145.png)
+8.screenshot
 ---
 
 ##🏷️ Repository Info
